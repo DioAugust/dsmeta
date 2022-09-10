@@ -1,0 +1,5 @@
+package com.back.dsmeta.services;
+
+public class SaleService {
+
+}
