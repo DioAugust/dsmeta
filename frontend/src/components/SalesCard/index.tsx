@@ -2,14 +2,10 @@ import NotificationButton from '../NotificationButton/'
 import './styles.css'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../../utils/request';
 import { Sale } from '../../models/sale';
-=======
-import { useState } from 'react';
->>>>>>> eb509385c2f8471afd27137d33ba0a9a64255fc9
 
 export default function SalesCard() {
 
@@ -19,7 +15,6 @@ export default function SalesCard() {
     const [minDate, setMinDate] = useState(min);
     const [maxDate, setMaxDate] = useState(max);
 
-<<<<<<< HEAD
     const [sales, setSales] = useState<Sale[]>([]);
 
     useEffect(() => {
@@ -33,8 +28,6 @@ export default function SalesCard() {
             })
     }, [minDate, maxDate]);
 
-=======
->>>>>>> eb509385c2f8471afd27137d33ba0a9a64255fc9
     return (
         <div className="dsmeta-card">
             <h2 className="dsmeta-sales-title">Vendas</h2>
