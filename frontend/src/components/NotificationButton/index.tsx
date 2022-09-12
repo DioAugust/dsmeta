@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import vector from '../../assets/img/Vector.svg';
+import vector from '../../assets/img/Vector.svg'
 import { BASE_URL } from '../../utils/request';
 import './styles.css'
 
